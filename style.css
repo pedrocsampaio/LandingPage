@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url('coolvetica rg') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'coolvetica';
+    background-image: url(background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+
+
+.img_logo_header{
+    width: 40px;
+    height: 56px;
+
+}
+
+
+
+.header,
+.navegation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header{
+    height: 56px;
+    justify-content: space-between;
+    padding: 0 4%;
+    margin: 1% 0;
+}
+
+.navegation_header{
+    gap: 69px;
+}
+
+.navegation_header a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    font-size: 30px;
+}
+
+.navegation_header .active{
+    background-color: white;
+    color: #0075FF;
+    padding: 12px 30px;
+    border-radius: 15px;
+}
